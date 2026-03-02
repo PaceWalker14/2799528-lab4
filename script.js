@@ -141,3 +141,10 @@ document.getElementById('search-btn').addEventListener('click', () => {
     searchCountry(country);
 });
 
+document.getElementById('country-input').addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+        const country = document.getElementById('country-input').value;
+        searchCountry(country);
+    }
+});
+
