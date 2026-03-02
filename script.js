@@ -74,7 +74,7 @@ async function searchCountry(countryName)
         
 
 
-        countryInfoSection.classList.remove('hidden');
+        countryInfoSection.classList.remove('hidden');// shows country info section
 
         // Fetch bordering countries
         const borderCodes = country.borders || [];
